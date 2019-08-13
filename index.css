@@ -79,6 +79,7 @@ html, body {
   position: absolute;
   bottom: 0;
   box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.3);
+  overflow: scroll;
 }
 
 .main > .atm .account .item .symbol {

@@ -123,7 +123,7 @@ function calculate(result1) {
 }
 
 function printBill100 (bills100) {
-    let bills100print;
+    let bills100print = "";
     for(var i = 0; i < bills100; i++){
         bills100print = bills100print + "$100 ";
     }
@@ -131,7 +131,7 @@ function printBill100 (bills100) {
 }
 
 function printBill50 (bills50) {
-    let bills50print;
+    let bills50print = "";
     for(var i = 0; i < bills50; i++){
         bills50print = bills50print + "$50 ";
     }
@@ -139,7 +139,7 @@ function printBill50 (bills50) {
 }
 
 function printBill20 (bills20) {
-    let bills20print;
+    let bills20print = "";
     for(var i = 0; i < bills20; i++){
         bills20print = bills20print + "$20 ";
     }
@@ -147,7 +147,7 @@ function printBill20 (bills20) {
 }
 
 function printBill10 (bills10) {
-    let bills10print;
+    let bills10print = "";
     for(var i = 0; i < bills10; i++){
         bills10print = bills10print + "$10 ";
     }
