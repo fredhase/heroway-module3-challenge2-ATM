@@ -103,7 +103,7 @@ btnConfirm.addEventListener('click', () => {
   boxWithdraw.innerText = calculate(result1);
 });
 
-function calculate(result1) {
+calculate = (result1) => {
   if(result1 % 10 > 0) {
     return "#Erro: Notas indisponíveis";
   }
@@ -122,7 +122,7 @@ function calculate(result1) {
   }
 }
 
-function printBill100 (bills100) {
+printBill100 = (bills100) => {
     let bills100print = "";
     for(var i = 0; i < bills100; i++){
         bills100print = bills100print + "$100 ";
@@ -130,7 +130,7 @@ function printBill100 (bills100) {
     return bills100print;
 }
 
-function printBill50 (bills50) {
+printBill50 = (bills50) => {
     let bills50print = "";
     for(var i = 0; i < bills50; i++){
         bills50print = bills50print + "$50 ";
@@ -138,7 +138,7 @@ function printBill50 (bills50) {
     return bills50print;
 }
 
-function printBill20 (bills20) {
+printBill20 = (bills20) => {
     let bills20print = "";
     for(var i = 0; i < bills20; i++){
         bills20print = bills20print + "$20 ";
@@ -146,7 +146,7 @@ function printBill20 (bills20) {
     return bills20print;
 }
 
-function printBill10 (bills10) {
+printBill10 = (bills10) => {
     let bills10print = "";
     for(var i = 0; i < bills10; i++){
         bills10print = bills10print + "$10 ";
